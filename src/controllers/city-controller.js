@@ -16,7 +16,7 @@ const create = async (req,res) => {
         return res.status(500).json({
             data: {},
             success: false,
-            messgae: 'Not able to create a city',
+            message: 'Not able to create a city',
             err: error
         });
     }
@@ -36,7 +36,7 @@ const destroy = async (req,res) => {
         return res.status(500).json({
             data: {},
             success: false,
-            messgae: 'Not able to delete the city',
+            message: 'Not able to delete the city',
             err: error
         });        
     }
@@ -57,7 +57,7 @@ const get = async (req,res) => {
         return res.status(500).json({
             data: {},
             success: false,
-            messgae: 'Not able to get the city',
+            message: 'Not able to get the city',
             err: error
         });        
     }
@@ -78,7 +78,7 @@ const update = async (req,res) => {
         return res.status(500).json({
             data: {},
             success: false,
-            messgae: 'Not able to update the city',
+            message: 'Not able to update the city',
             err: error
         });        
     }
@@ -98,7 +98,7 @@ const getAll = async (req,res) => {
         return res.status(500).json({
             data: {},
             success: false,
-            messgae: 'Not able to fetch the cities',
+            message: 'Not able to fetch the cities',
             err: error
         }); 
     }
